@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/linkFrafment">
+    <fragment
+        android:id="@+id/linkFrafment"
+        android:name="com.example.openinapp.fragment.linkFragment.LinkFrafment"
+        android:label="fragment_link_frafment"
+        tools:layout="@layout/fragment_link_frafment" />
+</navigation>
